@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href='./img/hextreme_icon.ico' rel="shortcut icon"/>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'/>
+	<link href='./styles/style.css' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+		<object class='title' type="image/svg+xml" data='./img/hextreme_logo.svg'>Your browser does not support SVG</object>
+	</div>
+	<div id="columns">
+		<div id="column1">
+			<div id="navigation">Current Game:</div>
+			<canvas id="canvas" width="600" height="500" style="cursor : none;"></canvas>
+		</div>
+		<div id="column2">
+			<div id="people">
+				<span>Online:</span><ul id="onlinepeople"></ul>
+				<span>In-Game:</span><ul id="ingamepeople"></ul>
+			</div>
+			<div id="chat">
+				<div id="chatbox"></div>
+				<form id="chatform">
+					<input id="chatinput" autocomplete="off"/>
+					<button id="chatbutton">&gt;&gt;</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="copyright">&copy; Jonah Simpson 2015</div>
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="http://socket.io/socket.io.js"></script>
+<script src="./js/outside.js"></script>
+<script src="./js/board.js"></script>
+<script src="./js/client.js"></script>
+<script src="./js/graphics.js"></script>
+<script src="./js/events.js"></script>
+
+</body>
+
+</html>

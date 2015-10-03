@@ -1,0 +1,113 @@
+body {
+	background-color: #eeeeee;
+}
+#container {
+	padding: 0px;
+	width: 1200px;
+	height: 900px;
+	margin: 0px auto 0px auto;
+	font-family: Quicksand;
+	text-align: center;
+}
+#header {
+	font-size: 64px;
+	margin: 0px;
+	padding: 0px;
+	height: 10%;
+}
+#title {
+	margin: auto;
+	position: relative;
+}
+#columns {
+	height: 80%;
+	padding: 0px;
+	margin: 0px;
+}
+#column1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 60%;
+	height: 100%;
+	position: relative;
+}
+#navigation {
+
+}
+#canvas {
+    display: block;
+    margin: auto;
+    background: #333333;
+}
+#column2 {
+	margin: 0px;
+	width: 40%;
+	float: left;
+	height: 100%;
+}
+#people {
+	margin: 10px;
+	height: 45%;
+	background: #aaaaaa;
+	overflow-y: scroll;
+}
+#chat {
+	margin: 10px;
+	padding: 10px;
+	height: 45%;
+	background: #aaaaaa;
+}
+#chatbox {
+	height: 100%;
+	text-align: left;
+	font-size: 16px;
+	font-family: Quicksand;
+	overflow-y: scroll;
+	color: white;
+	background: #333333;
+	padding: 0;
+	padding-left: 1em;
+}
+#chatform {
+	height: 2em;
+	margin: 0;
+	padding: 0.5em;
+	background: #555555;
+}
+#chatinput {
+	height: 2em;
+	border: 0;
+	width: 80%;
+	padding: 0;
+	margin: 0;
+}
+#chatbutton {
+	height: 2em;
+	border: 0;
+	width: 10%;
+	padding: 0;
+	margin: 0;
+}
+span.chatname {
+	color: #66CCFF;
+}
+span.gamename {
+	color: #66FF33;
+}
+span.servermsg {
+	color: #9966FF;
+}
+#footer {
+	padding: 0px;
+	margin: 0px;
+	height: 10%;
+	position: relative;
+}
+#copyright {
+	font-size: 16px;
+	font-family: Quicksand;
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
